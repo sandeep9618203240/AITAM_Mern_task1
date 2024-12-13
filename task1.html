@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task1</title>
+</head>
+<body>
+    <h1>
+        Employee registration
+    </h1>
+    <fieldset>
+        <legend>Yourself</legend>
+        <form action="">
+            <label for="fname">name</label>
+            <input type="text" name="fname" id="fname"><br>
+            <label for="lname">last name</label>
+            <input type="text" id="lname" value=""><br>
+        <label for="gender">gender:</label>
+        <input type="radio" id="male" name="gender" value="male`">
+        <label for="mine" >male</label>
+            <input type="radio" id="female" name="gender">
+            <!-- <input type="radio" id="html" name="fav_language" value="HTML"> -->
+            <label for="mine" >female</label>
+                <input type="radio" id="prefer not to say" name="gender">
+                <label for="not ">prefer not to say</label><br>
+                <label for="dateof birth">date of birth</label>
+                <input type="date" name="date" id=""><br>
+                <label for="address">address</label>
+                <input type="text" name="address" id="">
+                <br><label for="file">paste your photo</label>
+                <input type="file" name="" id=""><br>
+                <!-- <label for="dateof birth">date of birth</label> -->
+                <!-- <br><input type="submit"> -->
+        </form>
+    </fieldset>
+    <br>
+    <fieldset>
+        <h5>your core </h5>
+        <legend>your field of study</legend>
+       <input list="branch" name="core" id="core">
+<datalist id="branch">
+  <option value="CSE">
+  <option value="MECH">
+  <option value="ECE">
+  <option value="CIVIL">
+  <option value="Data Science">
+  <option value="Machine Learning">
+</datalist>
+        <h5>your experience</h5>
+        <select name="experience" id="number">
+            <option value="1">0</option>
+            <option value="2">0-5</option>
+        <option value="3">5-10</option>
+        <option value="no">no exp</option>
+        </select>
+    </fieldset>
+<br>
+<fieldset>
+    <legend>introduction</legend>
+    <h5>tell us about yourself:</h5>
+    <input type="text" name="intro" id="">
+</fieldset>
+<br><br>
+<input type="submit" name="" id="">
+<input type="reset" name="" id="">
+</body>
+</html>
