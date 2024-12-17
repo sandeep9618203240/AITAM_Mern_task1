@@ -4,9 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tableformatting</title>
+    <style>
+        div p{
+            color: brown;
+        }
+         span{
+            background-color: chocolate;
+         }
+        div > span{
+            color: aliceblue;
+            background-color: black;
+        }
+         h4{
+            color: hsl(180, 100%, 50%);
+        }
+        h4~p{
+            color: blue;
+        }
+        h3:hover{
+            color: rgb(255, 0, 0);
+            font-style: italic;
+
+        }
+         button {
+            color:
+             red;
+            border-radius: 40px;
+            background-color: aliceblue;
+        }
+button:hover{
+    color: rgb(8, 8, 5);
+    background-color: aqua;
+}
+a:hover{
+    color: chartreuse;
+}
+        h6::placeholder{
+            border-radius: 2px;
+            border-color: black;
+            color: rgb(223, 45, 45);
+        }
+        ul :nth-child(even){
+            color: green;
+        }
+
+</style>
 </head>
-<body>
-    <table id="table1" border="1">
+<body >
+    <!-- <table id="table1" border="1">
+
         <tr>
           <th >title1</th>
           <th>title2</th>
@@ -44,6 +90,37 @@
                 <th>head2</th>
             </tr>
         </table>
-          </table>
+          </table> -->
+
+          <!-- <div>
+            <p>heee</p>
+          </div> -->
+          <div >
+            <span>
+                hi
+            </span>
+            <span>
+                junior
+            </span>
+          </div>
+          <span>
+            senior
+          </span>
+        <h4>justice</h4>
+          <p >headinf1 p</p>
+          <p>heading3p</p>
+    <h3>hover</h3>
+<h5>
+    <button>sumbit</button>
+</h5>
+<button>subject</button>
+<a href="C:\Users\sande\project1da">click</a>
+<h6>place</h6>
+<ul>
+<li>opnion</li>
+<li>opniton2
+<li>iopninon3</li>
+</li>
+</ul>
 </body>
 </html>
